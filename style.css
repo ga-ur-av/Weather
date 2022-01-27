@@ -32,6 +32,7 @@ input, button{
 
 input{
     outline: none;
+    text-transform: capitalize;
 }
 
 button{
