@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
 }
 
 body{
@@ -32,7 +33,6 @@ input, button{
 
 input{
     outline: none;
-    text-transform: capitalize;
 }
 
 button{
