@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+
+    max-height: 100vh;
+    padding-top: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 5%;
+    margin: -5%;
+}
+
+input, button{
+    padding: 10px;
+    border-radius: 5%;
+    border: none;
+}
+
+input{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.input-container{
+    padding: 30px;
+}
+
+.output-container{
+    padding: 30px;
+    /* visibility: hidden   ; */
+}
+
+.city-name{
+    font-size: x-large;
+} 
+
+.wind-speed, .temp, .max-temp, .min-temp, .feels-like{
+    font-size: larger;
+}
